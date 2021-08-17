@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0130" tests="19" failures="2">
+  <testsuite name="Root Suite" timestamp="2021-08-17T16:27:48" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Vaccination center tests" timestamp="2021-08-17T16:27:48" tests="19" file="/home/mr-robot/dev/vaccine-service/test/test.js" time="0.0130" failures="2">
+    <testcase name="Vaccination center tests Empty vaccine center should not be added" time="0.0000" classname="Empty vaccine center should not be added">
+    </testcase>
+    <testcase name="Vaccination center tests Successfully add a valid vaccine center" time="0.0010" classname="Successfully add a valid vaccine center">
+    </testcase>
+    <testcase name="Vaccination center tests Add a duplicate center" time="0.0000" classname="Add a duplicate center">
+    </testcase>
+    <testcase name="Vaccination center tests Adding availablity to non existing center" time="0.0010" classname="Adding availablity to non existing center">
+    </testcase>
+    <testcase name="Vaccination center tests Adding availability" time="0.0000" classname="Adding availability">
+    </testcase>
+    <testcase name="Vaccination center tests Adding duplicate availability" time="0.0000" classname="Adding duplicate availability">
+    </testcase>
+    <testcase name="Vaccination center tests Updating availability of non existing center" time="0.0000" classname="Updating availability of non existing center">
+    </testcase>
+    <testcase name="Vaccination center tests Updating availability of non existing availability" time="0.0000" classname="Updating availability of non existing availability">
+    </testcase>
+    <testcase name="Vaccination center tests Succesfully updating availability" time="0.0010" classname="Succesfully updating availability">
+    </testcase>
+    <testcase name="Vaccination center tests Removing availability from non existing center" time="0.0010" classname="Removing availability from non existing center">
+    </testcase>
+    <testcase name="Vaccination center tests Removing non existing availability" time="0.0010" classname="Removing non existing availability">
+    </testcase>
+    <testcase name="Vaccination center tests Removing availability succesffully" time="0.0010" classname="Removing availability succesffully">
+    </testcase>
+    <testcase name="Vaccination center tests Booking failures" time="0.0010" classname="Booking failures">
+    </testcase>
+    <testcase name="Vaccination center tests Booking success" time="0.0010" classname="Booking success">
+    </testcase>
+    <testcase name="Vaccination center tests Search by empty vaccine type and dose type" time="0.0010" classname="Search by empty vaccine type and dose type">
+    </testcase>
+    <testcase name="Vaccination center tests Search empty vaccine type and non empty dose type" time="0.0000" classname="Search empty vaccine type and non empty dose type">
+    </testcase>
+    <testcase name="Vaccination center tests Search by non empty vaccine type and empty dose type" time="0.0010" classname="Search by non empty vaccine type and empty dose type">
+    </testcase>
+    <testcase name="Vaccination center tests Search by non empty vaccine type and non empty dose type" time="0.0010" classname="Search by non empty vaccine type and non empty dose type">
+      <failure message="expected 0 to equal 2" type="AssertionError"><![CDATA[AssertionError: expected 0 to equal 2
+    at Context.<anonymous> (test/test.js:294:49)
+    at processImmediate (internal/timers.js:461:21)]]></failure>
+    </testcase>
+    <testcase name="Vaccination center tests Multi search" time="0.0020" classname="Multi search">
+      <failure message="expected 0 to equal 1" type="AssertionError"><![CDATA[AssertionError: expected 0 to equal 1
+    at Context.<anonymous> (test/test.js:342:49)
+    at processImmediate (internal/timers.js:461:21)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
